@@ -105,18 +105,7 @@ nav:
       - Contributing: cactus/contributing.md
       - Whitepaper: cactus/whitepaper.md
       - Regulatory and Industry Initiatives: cactus/regulatory-and-industry-initiatives-reading-list.md
-      - Components:
-        - Overview: cactus/packages.md
-        - Api Client: cactus/packages/cactus-api-client.md
-        - CMD Api Server: cactus/packages/cactus-cmd-api-server.md
-        - Cactus Common: cactus/packages/cactus-common.md
-        - Cactus Core: cactus/packages/cactus-core.md
-        - Connector Besu: cactus/packages/cactus-plugin-ledger-connector-besu.md
-        - Connector Corda: cactus/packages/cactus-plugin-ledger-connector-corda.md
-        - Connector Fabric: cactus/packages/cactus-plugin-ledger-connector-fabric.md
-        - Test Api Client: cactus/packages/cactus-test-api-client.md
-        - Test CMD Api Server: cactus/packages/cactus-test-cmd-api-server.md
-        - Test Tooling: cactus/packages/cactus-test-tooling.md
+      - Packages: cactus/packages.md
       - Ledger Browser:
         - Overview: cactus/ledger-browser/overview.md
         - Setup: cactus/ledger-browser/setup.md

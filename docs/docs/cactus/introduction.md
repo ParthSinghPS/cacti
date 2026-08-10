@@ -1,28 +1,23 @@
 Welcome to Hyperledger Cacti documentation!
 =========================================================================================================================
 
-Hyperledger Cacti aims to provide Decentralized, Secure and Adaptable Integration between Blockchain Networks. Hyperledger Cacti is currently undergoing a major refactoring effort to enable the desired to-be architecture which will enable plug-in based collaborative development to increase the breadth of use cases & Ledgers supported.
+Hyperledger Cacti provides decentralized, secure, and adaptable integration between blockchain networks. It is a pluggable, enterprise-grade framework designed to transact across multiple distributed ledgers without introducing yet another competing blockchain.
 
 **What is Cacti?**
 
-A pluggable, enterprise-grade framework to transact on multiple distributed ledgers without introducing yet another competing blockchain.
+Cacti is a unified interoperability framework that allows different distributed ledger technology (DLT) networks to interact with each other through atomic transactions and state commits. This eliminates information silos, increases network value, and abstracts the application layer from DLT protocol fragmentation.
 
-> *   Cacti allows developers to abstract the application layer from the DLT addressing protocol fragmentation, lowering coupling and reducing implementation risks​
->     
-> *   Cactus allows different DLT networks to interact with each other, through atomic transactions and state commits, this eliminates information silos and increases network’s value​
->     
+The framework is composed of active subsystems designed to serve distinct operational roles:
+*   **SATP Hermes:** Cross-chain asset transfer protocol implementation.
+*   **Ledger Connectors:** Standardized interfaces for networks like Besu, Fabric, and Stellar.
+*   **COPM:** Cross-chain operations and lifecycle management.
+*   **Weaver:** Advanced interoperability framework and relay architecture.
+*   **API Server:** Centralized orchestration for Cacti plugins.
+*   **Core Libraries:** Foundational utilities and SDK components (common, core, core-api).
 
 **Why use Cacti?**
 
-> *   Maximize flexibility and future-proofing through plug-in architecture. ​
->     
-> *   Avoid needing explicit action from users to have a secure Cacti deployment. Policies such as vaults are built into the SDK​
->     
-> *   Keys and other credentials are not stored in source, configuration files, or environment variables​
->     
-> *   Preserving Ledger Features Horizontal Scalability.​
->     
-
-[Next](build.md "Hyperledger Cacti Build Instructions")
-
-* * *
+*   **Future-Proof Integration:** Maximize flexibility through a highly modular, plug-in based architecture.
+*   **Security by Default:** Enforce security policies seamlessly; vaults and credential management are built directly into the SDK.
+*   **Credential Protection:** Ensure keys and sensitive credentials are never stored in source code, configuration files, or environment variables.
+*   **Scalability:** Preserve native ledger features while enabling horizontal scalability across interconnected networks.
