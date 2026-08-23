@@ -382,7 +382,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../satp-hermes/architecture/satp-hermes.md" class="md-tabs__link">
+        <a href="../../satp-hermes/architecture/satp-hermes/" class="md-tabs__link">
           
   
   
@@ -1180,6 +1180,17 @@
     <span class="md-ellipsis">
       
         Connectors, Plugins, and Infrastructure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extensions
       
     </span>
   </a>
@@ -3851,7 +3862,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../satp-hermes/architecture/satp-hermes.md" class="md-nav__link">
+      <a href="../../satp-hermes/architecture/satp-hermes/" class="md-nav__link">
         
   
   
@@ -3859,6 +3870,118 @@
     
   
     Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../satp-hermes/configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gateway Configuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../satp-hermes/api3-adapter-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Type 3 Adapter Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../satp-hermes/database/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Database and Migrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../satp-hermes/operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operations
   
 
     
@@ -4993,11 +5116,11 @@
 </tr>
 <tr>
 <td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cactus-plugin-bungee-hermes">cactus-plugin-bungee-hermes</a></td>
-<td style="text-align: left;">Extension package providing Bungee routing capabilities for Hermes.</td>
+<td style="text-align: left;">Creates and combines distributed-ledger views for Cacti data-sharing flows.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cacti-ledger-browser">cacti-ledger-browser</a></td>
-<td style="text-align: left;">Ledger browser utility for viewing cross-chain transactions.</td>
+<td style="text-align: left;">React application for visualizing ledger data exposed through Cacti.</td>
 </tr>
 </tbody>
 </table>
@@ -5016,15 +5139,19 @@
 </tr>
 <tr>
 <td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cacti-copm-core">cacti-copm-core</a></td>
-<td style="text-align: left;">Core operations and lifecycle management subsystem logic.</td>
+<td style="text-align: left;">Common types, services, validators, and ledger abstractions for COPM.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cacti-plugin-copm-corda">cacti-plugin-copm-corda</a></td>
-<td style="text-align: left;">Operations lifecycle management plugin for the Corda ledger.</td>
+<td style="text-align: left;">Corda implementation of COPM operations.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cacti-plugin-copm-fabric">cacti-plugin-copm-fabric</a></td>
-<td style="text-align: left;">Operations lifecycle management plugin for the Hyperledger Fabric ledger.</td>
+<td style="text-align: left;">Fabric implementation of COPM operations.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cacti-plugin-consortium-static">cacti-plugin-consortium-static</a></td>
+<td style="text-align: left;">Static consortium repository with authenticated node enrollment.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cacti-plugin-weaver-driver-fabric">cacti-plugin-weaver-driver-fabric</a></td>
@@ -5055,12 +5182,39 @@
 <td style="text-align: left;">In-memory keychain plugin for local development and testing environments.</td>
 </tr>
 <tr>
+<td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cactus-plugin-htlc-eth-besu">cactus-plugin-htlc-eth-besu</a></td>
+<td style="text-align: left;">Hash time-locked contract operations on Besu.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cactus-plugin-htlc-eth-besu-erc20">cactus-plugin-htlc-eth-besu-erc20</a></td>
+<td style="text-align: left;">ERC-20 hash time-locked contract operations on Besu.</td>
+</tr>
+<tr>
 <td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cactus-plugin-persistence-ethereum">cactus-plugin-persistence-ethereum</a></td>
 <td style="text-align: left;">Persistence plugin for syncing Ethereum ledger state to a database.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cactus-plugin-persistence-fabric">cactus-plugin-persistence-fabric</a></td>
 <td style="text-align: left;">Persistence plugin for syncing Fabric ledger state to a database.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="extensions">Extensions<a class="headerlink" href="#extensions" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Package Name</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/extensions/cactus-plugin-object-store-ipfs">cactus-plugin-object-store-ipfs</a></td>
+<td style="text-align: left;">IPFS-backed implementation of the Cacti object-store interface.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/extensions/cactus-plugin-htlc-coordinator-besu">cactus-plugin-htlc-coordinator-besu</a></td>
+<td style="text-align: left;">Coordinates Besu and Besu ERC-20 HTLC operations.</td>
 </tr>
 </tbody>
 </table>
@@ -5088,6 +5242,26 @@
 <tr>
 <td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cacti-copm-test">cacti-copm-test</a></td>
 <td style="text-align: left;">Testing suites specific to COPM subsystem functionality.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cactus-test-geth-ledger">cactus-test-geth-ledger</a></td>
+<td style="text-align: left;">Helpers for running ephemeral go-ethereum ledgers in tests.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cactus-test-plugin-htlc-eth-besu">cactus-test-plugin-htlc-eth-besu</a></td>
+<td style="text-align: left;">Integration tests for the Besu HTLC plugin.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cactus-test-plugin-htlc-eth-besu-erc20">cactus-test-plugin-htlc-eth-besu-erc20</a></td>
+<td style="text-align: left;">Integration tests for the Besu ERC-20 HTLC plugin.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cactus-test-plugin-ledger-connector-besu">cactus-test-plugin-ledger-connector-besu</a></td>
+<td style="text-align: left;">Integration tests for the Besu connector and API server.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/hyperledger-cacti/cacti/tree/main/packages/cactus-test-plugin-ledger-connector-ethereum">cactus-test-plugin-ledger-connector-ethereum</a></td>
+<td style="text-align: left;">Integration tests for the Ethereum connector and API server.</td>
 </tr>
 </tbody>
 </table>
